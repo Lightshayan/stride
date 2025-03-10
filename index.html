@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>My Website</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stride Apparel Store</title>
+    <script src="https://cdn.snipcart.com/themes/v3.0/default/snipcart.js"></script>
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0/default/snipcart.css" />
 </head>
 <body>
+    <h1>Welcome to Stride Apparel</h1>
+    <div>
+        <h2>T-Shirt</h2>
+        <p>$25.00</p>
+        <button class="snipcart-add-item"
+            data-item-id="tshirt-001"
+            data-item-name="Stride T-Shirt"
+            data-item-price="25.00"
+            data-item-url="/"
+            data-item-description="A premium Stride Apparel t-shirt.">
+            Add to Cart
+        </button>
+    </div>
 
+    <div id="snipcart" data-api-key="YOUR_SNIPCART_PUBLIC_KEY"></div>
 </body>
 </html>
+
